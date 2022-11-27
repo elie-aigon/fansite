@@ -1,0 +1,313 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap');
+*{
+    font-family: 'Roboto Slab', serif;
+}
+
+body{
+    background-color: #102337;
+}
+/* nav */
+
+#logoheader{
+    width: 60px;
+    height: 60px;
+    padding: 10px;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between;
+    width: 100%;
+    border-bottom: solid 2px #00d8ec;
+    /* background-color: red; */
+}
+#logovalo{
+    width: 100px;   
+    align-self: center;
+}
+
+#logolol{
+    width: 100px;
+    align-self: center;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style-type: none;
+}
+
+nav a{
+    color:  white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.brander{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* main */
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+.carousel-items{
+    display: flex;
+    overflow-x: scroll;
+    padding: 1rem 0;
+    scroll-snap-type: x mandatory;
+}
+
+.carousel-item{
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 450px;
+    margin-left: 1rem; 
+    scroll-snap-align: start;
+
+}
+
+.carousel ul{
+    list-style-type: none;
+}
+
+.carousel h2{
+    color: #00d8ec;
+    justify-content: center;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #102337;
+}
+
+::-webkit-scrollbar {
+    height: 10px;
+    background-color: #102337;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #00d8ec;
+    border-radius: 10px;
+}
+
+
+#teamvalo{
+    height: 600px;
+}
+
+#kcx{
+    height: 600px;
+}
+
+#champion{
+    height: 600px;
+}
+
+#prime{
+    height: 600px;
+}
+
+/* contact.html */
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1em;
+    border-radius: 100px;
+    color: white;
+
+}
+
+#name{
+    width: 700px;
+    height: 30px;
+    border-radius: 10px;
+}
+#mail{
+    width: 700px;
+    height: 30px;
+    border-radius: 10px;
+}
+#msg{
+    width: 700px;
+    height: 350px;
+    border-radius: 10px;
+}
+button{
+    
+    background-color: #00d8ec;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    width: 100px;
+    
+
+}
+
+/* valorant.html */
+.photovalo{
+    height: 300px;
+}
+#newzeraphoto{
+    height: 300px;
+    margin-right: 20px;
+}
+.joueurleft{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: end;
+    background-color: #00d8ec;
+    border-radius: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 10px;
+    
+}
+.joueurright{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: end;
+    background-color: #00d8ec;
+    width: 475px;
+    border-radius: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 10px;
+}
+
+
+/* lol.html */
+section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color:white;
+}
+.sectionr{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    margin-right: 0px;
+}
+.sectionmid{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sectionl{
+    display: flex;
+    flex-direction: column;
+
+}
+.toplane{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #00d8ec;
+    padding-left: 10px;
+    border-radius: 100px;
+    width: 600px;
+    margin-bottom: 10px;
+
+}
+
+.jungle{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    background-color: #00d8ec;
+    padding-right: 10px;
+    border-radius: 100px;
+    width: 600px;
+    margin-bottom: 10px;
+}
+
+.midlane{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #00d8ec;
+    padding-left: 10px;
+    border-radius: 100px;
+    width: 600px;
+    margin-bottom: 10px;
+
+
+}
+.adc{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    width: 600px;
+    background-color: #00d8ec;
+    padding-right: 10px;
+    margin-right: 0px;
+    border-radius: 100px;
+    margin-bottom: 10px;
+}
+
+.support{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 600px;
+    background-color: #00d8ec;
+    padding-left: 10px;
+    border-radius: 100px;
+    margin-bottom: 10px;
+
+}
+.voirplus{
+    display: flex;
+    background-color: #00d8ec;
+    justify-content: center;
+    border-radius: 10px;
+    width: fit-content;
+    padding: 10px 10px 10px 10px;
+}
+.description{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.photo{
+    width: 300px;
+}
+i{
+    color: white;
+}
+
+
+
+/* footer */
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+}
+
+#logofooter{
+    width: 160px;
+    height: 160px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
